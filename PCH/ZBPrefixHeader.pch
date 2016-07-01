@@ -1,0 +1,38 @@
+//
+//  ZBPrefixHeader.pch
+//  zhuangdianbi
+//
+//  Created by bonelee on 16/3/16.
+//  Copyright © 2016年 zhuangbi. All rights reserved.
+//
+
+#ifndef ZBPrefixHeader_pch
+#define ZBPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import "UIView+Category.h"
+
+//#import "AFNetworking.h"
+//#import "MBProgressHUD.h"
+//#import "Masonry.h"
+//#import "BlocksKit.h"
+//#import "LoggerClient.h"
+#import "UIColor+Category.h"
+#import "ZBColor.h"
+
+
+
+#define ZBTabBarHeight 49.00  //底栏高度
+
+#define ZBScreenSize [UIScreen mainScreen].bounds.size
+
+
+#define IOS_7 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0 ? YES : NO)
+#define IOS_8 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0 ? YES : NO)
+
+
+
+#endif /* ZBPrefixHeader_pch */
